@@ -1,0 +1,163 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+
+img{
+	max-width: 100%;
+}
+.over-flow{
+	overflow: hidden;
+}
+.active a{
+	color: #fff!important;
+	background: #FF9900!important;
+}
+
+#header{
+	float: left;
+	width: 100%;
+	background: url(../images/header.jpg)no-repeat;
+	background-size: cover;
+	position: relative;
+}
+#header h1{
+	margin-top: 50px;
+	font-size: 80px;
+	color: #F03D35;
+	text-shadow: 3px 5px 10px #fff;
+}
+.user{
+	position: absolute;
+	top: 0;
+	right: 10px;
+}
+.user p{
+	margin: 0;
+	padding: 0;
+	color: #000;
+	font-size: 18px;
+	font-weight: bold;
+}
+.user a{
+	margin-right: 15px;
+	background: #E1E1E1;
+	padding: 2px 20px;
+	color: #444;
+	font-weight: bold;
+}
+.home{
+	background: #fff!important;
+}
+.home:after{
+	background: #fff!important;
+	content: "\f078";
+	font-family: fontAwesome;
+	position: absolute;
+	top: 53%;
+	left:69px;
+}
+#navbar{
+	
+}
+.navbar{
+	
+	
+}
+
+.navbar-nav{
+	margin-right: auto;
+}
+.nav-item{
+	margin: 0;
+	padding: 0;
+	padding: 0 5px;
+	
+}
+
+
+.nav-item a{
+	color: #fff;
+	background:#0088CE;
+	transition: .4s ease;
+	font-weight: bold;
+	font-size: 20px;
+	border: 1px #000 solid;
+
+}
+.nav-item a:hover{
+	color: #252c3a;
+	
+}
+.rpg{
+	margin-right: 20px;
+}
+
+.navbar-toggler-icon{
+	color: #252c3a;
+
+}
+
+#about{
+	float: left;
+	width: 100%;
+}
+.about h1{
+	margin-top: 40px;
+	font-size: 35px;
+	text-align: center;
+	color: blue;
+}
+.about-img{
+	width: 100%;
+	margin-top: 50px;
+	position: relative;
+}
+.about-img img{
+	width: 80%;
+	margin-top: 50px;
+	position: relative;
+}
+.motivationrpg{
+	
+	margin-top: 50px;
+}
+.plus {
+    position: absolute;
+    top: 33%;
+    left: 84%;
+    font-size: 33px;
+    font-weight: bold;
+}
+.equal {
+    position: absolute;
+    top: 41%;
+    right: 5%;
+    font-size: 33px;
+    font-weight: bold;
+}
+.pra{
+	margin-top: 50px ;
+	text-align: center;
+}
+.pra2{
+	text-align: center;
+}
+.from1{
+	margin-top: 40px;
+}
+#fb-root{
+	text-align: center;
+	/*margin-left: 400px;*/
+}
